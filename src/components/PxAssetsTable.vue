@@ -5,7 +5,7 @@
         <th></th>
         <th :class="{up: this.sortOrder === 1, down: this.sortOrder ===-1}" >
           <span 
-          class="inderline-cursor-pointer"
+          class= "underline-cursor-pointer"
           @click= "changeSortOrder">Ranking</span>
         </th>
         <th>Nombre</th>
